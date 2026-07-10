@@ -2,6 +2,10 @@
 
 Responsive FAQ landing page built with React, TypeScript, Vite, and Tailwind CSS.
 
+## Live Demo
+
+[https://dawalmalik0405-spec.github.io/Digitomics_FAQ/](https://dawalmalik0405-spec.github.io/Digitomics_FAQ/)
+
 ## Setup
 
 ```bash
