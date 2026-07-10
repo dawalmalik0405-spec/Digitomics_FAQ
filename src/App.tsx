@@ -32,7 +32,7 @@ function App() {
       <section className="relative mx-auto max-w-[1500px] px-4 pb-10 sm:px-8 lg:px-12">
         <div className="absolute inset-x-4 bottom-0 top-24 rounded-2xl bg-ember sm:inset-x-8 lg:inset-x-12" />
         <div className="relative mx-auto grid max-w-[1240px] gap-8 rounded-2xl bg-white p-6 shadow-panel sm:p-8 lg:grid-cols-[340px_1fr] lg:p-12">
-          <div className="sticky top-6 self-start">
+          <div className="self-start lg:sticky lg:top-6">
             <CategoryList
               categories={categories}
               activeCategoryId={activeCategoryId}
