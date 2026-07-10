@@ -22,12 +22,12 @@ export function FaqAccordion({ faqs, openFaqId, onToggle }: FaqAccordionProps) {
           >
             <button
               type="button"
-              className="flex min-h-[58px] w-full items-center justify-between gap-4 px-5 text-left"
+              className="flex min-h-[58px] w-full items-center justify-between gap-3 px-4 py-4 text-left sm:gap-4 sm:px-5"
               onClick={() => onToggle(faq.id)}
               aria-expanded={open}
               aria-controls={`${faq.id}-answer`}
             >
-              <span className="text-base font-extrabold leading-6 text-ink sm:text-lg">
+              <span className="text-[1rem] font-extrabold leading-6 text-ink sm:text-lg">
                 {faq.question}
               </span>
               <ChevronDown
@@ -43,7 +43,7 @@ export function FaqAccordion({ faqs, openFaqId, onToggle }: FaqAccordionProps) {
               }`}
             >
               <div className="overflow-hidden">
-                <p className="border-t border-orange-100 px-5 pb-5 pt-4 text-sm font-medium leading-6 text-slate-600 sm:text-base">
+                <p className="border-t border-orange-100 px-4 pb-5 pt-4 text-sm font-medium leading-6 text-slate-600 sm:px-5 sm:text-base">
                   {faq.answer}
                 </p>
               </div>
